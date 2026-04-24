@@ -1,5 +1,5 @@
-CMakeFiles/WriteSpe.dir/WriteSpe.cpp.o: \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/WriteSpe.cpp \
+CMakeFiles/arm_control.dir/arm_control.cpp.o: \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/arm_control.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -189,13 +189,13 @@ CMakeFiles/WriteSpe.dir/WriteSpe.cpp.o: \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/SCServo.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/SCSCL.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/SCSerial.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/SCS.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/INST.h \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/SCServo.h \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/SCSCL.h \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/SCSerial.h \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/SCS.h \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/INST.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/SMS_STS.h \
- /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src/HLSCL.h
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/SMS_STS.h \
+ /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src/HLSCL.h

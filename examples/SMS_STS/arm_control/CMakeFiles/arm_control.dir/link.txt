@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -rdynamic CMakeFiles/arm_control.dir/arm_control.cpp.o -o arm_control   -L/home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src  -Wl,-rpath,/home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src -Wl,-Bstatic -lSCServo -Wl,-Bdynamic 

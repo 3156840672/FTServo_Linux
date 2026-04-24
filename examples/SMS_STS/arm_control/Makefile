@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe
+CMAKE_SOURCE_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/arm_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe
+CMAKE_BINARY_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/arm_control
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/CMakeFiles /home/yue/FTServo_Linux/examples/SMS_STS/arm_control//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named WriteSpe
+# Target rules for targets named arm_control
 
 # Build rule for target.
-WriteSpe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WriteSpe
-.PHONY : WriteSpe
+arm_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arm_control
+.PHONY : arm_control
 
 # fast build rule for target.
-WriteSpe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/build
-.PHONY : WriteSpe/fast
+arm_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/build
+.PHONY : arm_control/fast
 
-WriteSpe.o: WriteSpe.cpp.o
-.PHONY : WriteSpe.o
+arm_control.o: arm_control.cpp.o
+.PHONY : arm_control.o
 
 # target to build an object file
-WriteSpe.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/WriteSpe.cpp.o
-.PHONY : WriteSpe.cpp.o
+arm_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/arm_control.cpp.o
+.PHONY : arm_control.cpp.o
 
-WriteSpe.i: WriteSpe.cpp.i
-.PHONY : WriteSpe.i
+arm_control.i: arm_control.cpp.i
+.PHONY : arm_control.i
 
 # target to preprocess a source file
-WriteSpe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/WriteSpe.cpp.i
-.PHONY : WriteSpe.cpp.i
+arm_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/arm_control.cpp.i
+.PHONY : arm_control.cpp.i
 
-WriteSpe.s: WriteSpe.cpp.s
-.PHONY : WriteSpe.s
+arm_control.s: arm_control.cpp.s
+.PHONY : arm_control.s
 
 # target to generate assembly for a file
-WriteSpe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/WriteSpe.cpp.s
-.PHONY : WriteSpe.cpp.s
+arm_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/arm_control.cpp.s
+.PHONY : arm_control.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... WriteSpe"
-	@echo "... WriteSpe.o"
-	@echo "... WriteSpe.i"
-	@echo "... WriteSpe.s"
+	@echo "... arm_control"
+	@echo "... arm_control.o"
+	@echo "... arm_control.i"
+	@echo "... arm_control.s"
 .PHONY : help
 
 

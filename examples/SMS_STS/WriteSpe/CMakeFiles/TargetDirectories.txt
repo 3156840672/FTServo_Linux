@@ -1,3 +1,0 @@
-/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles/WriteSpe.dir
-/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles/edit_cache.dir
-/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles/rebuild_cache.dir

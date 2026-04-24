@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe
+CMAKE_SOURCE_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/arm_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe
+CMAKE_BINARY_DIR = /home/yue/FTServo_Linux/examples/SMS_STS/arm_control
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/WriteSpe.dir/all
+all: CMakeFiles/arm_control.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/WriteSpe.dir/clean
+clean: CMakeFiles/arm_control.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/WriteSpe.dir
+# Target rules for target CMakeFiles/arm_control.dir
 
 # All Build rule for target.
-CMakeFiles/WriteSpe.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles --progress-num=1,2 "Built target WriteSpe"
-.PHONY : CMakeFiles/WriteSpe.dir/all
+CMakeFiles/arm_control.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yue/FTServo_Linux/examples/SMS_STS/arm_control/CMakeFiles --progress-num=1,2 "Built target arm_control"
+.PHONY : CMakeFiles/arm_control.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/WriteSpe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WriteSpe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/CMakeFiles 0
-.PHONY : CMakeFiles/WriteSpe.dir/rule
+CMakeFiles/arm_control.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arm_control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yue/FTServo_Linux/examples/SMS_STS/arm_control/CMakeFiles 0
+.PHONY : CMakeFiles/arm_control.dir/rule
 
 # Convenience name for target.
-WriteSpe: CMakeFiles/WriteSpe.dir/rule
-.PHONY : WriteSpe
+arm_control: CMakeFiles/arm_control.dir/rule
+.PHONY : arm_control
 
 # clean rule for target.
-CMakeFiles/WriteSpe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WriteSpe.dir/build.make CMakeFiles/WriteSpe.dir/clean
-.PHONY : CMakeFiles/WriteSpe.dir/clean
+CMakeFiles/arm_control.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_control.dir/build.make CMakeFiles/arm_control.dir/clean
+.PHONY : CMakeFiles/arm_control.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

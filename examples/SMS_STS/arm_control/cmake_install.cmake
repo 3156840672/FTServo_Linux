@@ -1,4 +1,4 @@
-# Install script for directory: /home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe
+# Install script for directory: /home/yue/FTServo_Linux/examples/SMS_STS/arm_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yue/FTServo_Linux/examples/SMS_STS/arm_control/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/WriteSpe.cpp" "CMakeFiles/WriteSpe.dir/WriteSpe.cpp.o" "gcc" "CMakeFiles/WriteSpe.dir/WriteSpe.cpp.o.d"
+  "/home/yue/FTServo_Linux/examples/SMS_STS/arm_control/arm_control.cpp" "CMakeFiles/arm_control.dir/arm_control.cpp.o" "gcc" "CMakeFiles/arm_control.dir/arm_control.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src
+CXX_INCLUDES = -I/home/yue/FTServo_Linux/examples/SMS_STS/arm_control/../../../src
 
 CXX_FLAGS =  -std=c++11 -O3
 

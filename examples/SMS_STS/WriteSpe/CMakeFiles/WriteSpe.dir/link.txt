@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++11 -O3 -rdynamic CMakeFiles/WriteSpe.dir/WriteSpe.cpp.o -o WriteSpe   -L/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src  -Wl,-rpath,/home/yue/FTServo_Linux/examples/SMS_STS/WriteSpe/../../../src -Wl,-Bstatic -lSCServo -Wl,-Bdynamic 
