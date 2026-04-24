@@ -1,0 +1,3 @@
+/home/yue/FTServo_Linux/src/CMakeFiles/SCServo.dir
+/home/yue/FTServo_Linux/src/CMakeFiles/edit_cache.dir
+/home/yue/FTServo_Linux/src/CMakeFiles/rebuild_cache.dir

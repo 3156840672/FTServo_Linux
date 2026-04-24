@@ -12,3 +12,4 @@ file(GLOB hdrs *h)
 file(GLOB srs *.cpp)
 
 add_executable(${project} ${hdrs} ${srs})
+target_link_libraries(WritePos ncurses) 
